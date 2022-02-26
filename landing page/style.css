@@ -1,0 +1,172 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+display: flex;
+justify-content: right;
+height: 60px;
+}
+.menu{
+display: flex;
+justify-content: space-between;
+align-items: center;
+}
+.lista{
+display: flex;
+align-items: center;
+}
+ul{
+    display: flex;
+
+}
+
+ul li {
+display: inline;
+padding-right: 20px; 
+
+}
+
+a{
+  
+  text-decoration: none;
+    color: #000000DE;
+}
+a:hover{
+    text-decoration: underline;
+}
+
+
+.imagens{
+
+display: flex;
+}
+.n1,.n2{
+display: flex;
+padding-right:20px;
+
+}
+
+section{
+    display: flex;
+    justify-content: center;
+
+  
+}
+.logomarca{
+display: flex;
+height: 229px;
+}
+.logo{
+    padding-top: 140px;
+}
+
+#bloco1{
+    display: flex;
+    box-sizing: border-box;
+   
+
+
+}
+.blocao{
+    display: flex;
+    justify-content: column;
+    width: 575px;
+    height: 50pxpx;
+  border: 0.1px solid rgba(0, 0, 0, 0.2);
+  margin-top: 30px;
+  border-radius: 50px;
+padding: 5px 8px 0 14px;
+
+}
+
+.pesquisa{
+    display: flex;
+
+width: 582px;
+height: 35px;
+
+
+}
+
+#lupa{
+  
+    width: 450px;
+    height: 32px;
+    background: transparent;
+  padding-left: 10px;
+    justify-content: center;
+    box-shadow: none;
+    border: none;
+    box-shadow: 0 0 0 0;
+    outline: 0;
+
+  
+}
+#lupa1{
+    margin-top: 7px;
+    justify-content: center;
+   
+}
+
+form{
+    box-sizing: border-box;
+    display: block;
+
+}
+
+form .botoes{
+display: flex;
+justify-content: center;
+margin-top: 30px;
+padding-left: 80px;
+}
+
+#botao1,#botao2{
+margin-right: 15px
+;
+padding: 11px 16px;
+background-color: #f8f9fa ;
+border: none;
+
+}
+
+#botao1:hover, #botao2:hover{
+    box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.2);
+     
+}
+.copyright{
+    font-size: 13px;
+display: flex;
+margin-top: 27px;
+margin-left: 170px;
+
+}
+#bloco2{
+    display: flex;
+    height: 336px;
+}
+.footer0{
+    display: block;
+}
+
+.footer1{
+padding: 15px 30px;
+color: #70757a;
+font-size: 15px;
+border-bottom: 1px solid #dadce0;
+background-color: #f1f2f5;
+}
+
+.footer2{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px;
+    
+}
+
+
+
+
+
